@@ -7,12 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>GoIt#1 | Homework</title>
 </head>
 <body>
     
     <header>
+        <div class="container nav">
         <nav>
             <a href="./index.html" class="logo">Web<span>Studio</span></a>
             <ul class="main-links">
@@ -31,16 +32,17 @@
                 </li>
             </ul>
         </address>
+        </div>
     </header>
     <main>
-        <section class="block-with-order-button">
+        <section class="block-with-order-button section">
             <h1 class="first-section-title">Effective Solutions for Your Business
             </h1>
             <button type="button" class="order">Order Service</button>
         </section>
-        <section class="features">
+        <section class="features section">
             <h2 class="title">Content</h2>
-            <ul>
+            <ul class="container">
                 <li>
                     <h3 class="paragraph-title">Strategy</h3>
                     <p class="paragraph-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
@@ -59,9 +61,9 @@
                 </li>
             </ul>
         </section>
-        <section class="team">
+        <section class="team section">
         <h2 class="title">Our Team</h2>
-            <ul class="team-list">
+            <ul class="team-list container">
                 <li class="team-list-paragraph"><img src="./images/MarkGuerrero.jpg" alt="MarkGuerrero" width="264">
                 <h3 class="teamate">Mark Guerrero</h3>
                 <p class="paragraph-text">Product Designer</p>
@@ -80,38 +82,62 @@
                 </li>
             </ul>
         </section>
-        <section class="portfolio">
+        <section class="portfolio section">
             <h2 class="title">Our Portfolio</h2>
-            <ul>
+            <ul class="container">
                 <li>
+                    <div class="portfolio-container">
                     <img src="./images/BankingApp.jpg" alt="BankingApp" width="360" height="300">
-                    <h3 class="portfolio-list-title">Banking App</h3>
-                    <p class="portfolio-list-paragraph">App</p>
+                    <div class="portfolio-container-info">
+                        <h3 class="portfolio-list-title">Banking App</h3>
+                        <p class="portfolio-list-paragraph">App</p>
+                    </div>
+                    </div>
                 </li>
                 <li>
+                    <div class="portfolio-container">
                     <img src="./images/CashlessPayment.jpg" alt="Terminal" width="360" height="300">
-                    <h3 class="portfolio-list-title">Cashless Payment</h3>
-                    <p class="portfolio-list-paragraph">Marketing</p>
+                    <div class="portfolio-container-info">
+                        <h3 class="portfolio-list-title">Cashless Payment</h3>
+                        <p class="portfolio-list-paragraph">Marketing</p>
+                    </div>
+                    </div>
                 </li>
                 <li>
+                    <div class="portfolio-container">
                     <img src="./images/MeditationApp.jpg" alt="NoteBook" width="360" height="300">
-                    <h3 class="portfolio-list-title">Meditation App</h3>
-                    <p class="portfolio-list-paragraph">App</p>
+                    <div class="portfolio-container-info">
+                        <h3 class="portfolio-list-title">Meditation App</h3>
+                        <p class="portfolio-list-paragraph">App</p>
+                    </div>
+                    </div>
                 </li>
                 <li>
+                    <div class="portfolio-container">
                     <img src="./images/TaxiService.jpg" alt="TaxiCar" width="360" height="300">
-                    <h3 class="portfolio-list-title">Taxi Service</h3>
-                    <p class="portfolio-list-paragraph">Marketing</p>
+                    <div class="portfolio-container-info">
+                        <h3 class="portfolio-list-title">Taxi Service</h3>
+                        <p class="portfolio-list-paragraph">Marketing</p>
+                    </div>
+                    </div>
                 </li>
                 <li>
+                    <div class="portfolio-container">
                     <img src="./images/ScreenIllustration.jpg" alt="Smartphone" width="360" height="300">
-                    <h3 class="portfolio-list-title">Screen Illustrations</h3>
-                    <p class="portfolio-list-paragraph">Design</p>
+                    <div class="portfolio-container-info">
+                        <h3 class="portfolio-list-title">Screen Illustrations</h3>
+                        <p class="portfolio-list-paragraph">Design</p>
+                    </div>
+                    </div>
                 </li>
                 <li>
+                    <div class="portfolio-container">
                     <img src="./images/OnlineCourses.jpg" alt="woman-with-phone" width="360" height="300">
-                    <h3 class="portfolio-list-title">Online Courses</h3>
-                    <p class="portfolio-list-paragraph">Marketing</p>
+                    <div class="portfolio-container-info">
+                        <h3 class="portfolio-list-title">Online Courses</h3>
+                        <p class="portfolio-list-paragraph">Marketing</p>
+                    </div>
+                    </div>
                 </li>
             </ul>
         </section>
