@@ -262,8 +262,3 @@ footer p{
     line-height: 1.50; 
     letter-spacing: 0.02em; /* 0.32/16 */
 }
-
-.section{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
