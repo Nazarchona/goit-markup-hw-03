@@ -8,6 +8,10 @@ header{
     background: var(--WHITE, #FFF);
 }
 
+.top{
+    border-bottom: 1px solid #e7e9fc
+}
+
 .logo{
     color: var(--NAVY-BLUE, #4d5ae5);
     font-family: "Raleway", sans-serif;
@@ -18,6 +22,7 @@ header{
     letter-spacing: 0.03em; /* 0.54/18 */
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 span{
@@ -30,6 +35,19 @@ nav a{
     color: #4d5ae5;
 }
 
+.nav{
+    display: flex;
+}
+
+.main-links{
+    display: flex;
+    gap: 40px;
+}
+
+.main-link{
+    padding: 24px 0;
+}
+
 .main-links a{
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: "Roboto";
@@ -40,20 +58,20 @@ nav a{
     letter-spacing: 0.02em; /* 0.32/16 */
 }
 
-.container{
+.adress-list{
     display: flex;
-}
-
-.nav nav, .nav address{
-    display: flex;
-}
-
-.main-links li a, .main-contacts li a{
     gap: 40px;
 }
 
-.nav nav ul li, .nav nav a, .nav address ul li{
-    display: inline;
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
 }
 
 .main-link a:focus{
@@ -105,6 +123,7 @@ nav a{
 
 .block-with-order-button{
     background: var(--NAVY-BLUE, #2E2F42);
+    padding: 188px 0 188px;
 }
 
 .block-with-order-button h1{
@@ -304,3 +323,8 @@ footer p{
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.img{
+    display: block;
+}
+
