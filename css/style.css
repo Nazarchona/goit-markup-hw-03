@@ -44,7 +44,7 @@ nav a{
     gap: 40px;
 }
 
-.main-link{
+.main-links-link{
     padding: 24px 0;
 }
 
@@ -324,7 +324,7 @@ footer p{
     padding-bottom: 120px;
 }
 
-.img{
+img{
     display: block;
 }
 
