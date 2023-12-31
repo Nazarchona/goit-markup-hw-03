@@ -44,11 +44,8 @@ nav a{
     gap: 40px;
 }
 
-.main-links-link{
-    padding: 24px 0;
-}
 
-.main-links a{
+.main-links-link{
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: "Roboto";
     font-size: 16px;
@@ -56,7 +53,9 @@ nav a{
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em; /* 0.32/16 */
+    padding: 24px 0;
 }
+
 
 .adress-list{
     display: flex;
@@ -123,7 +122,7 @@ nav a{
 
 .block-with-order-button{
     background: var(--NAVY-BLUE, #2E2F42);
-    padding: 188px 0 188px;
+    padding: 188px 0;
 }
 
 .block-with-order-button h1{
@@ -134,9 +133,15 @@ nav a{
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em; /* 1.12/56 */
+    max-width: 496px;
 }
 
-.block-with-order-button button{
+.block-with-order-button .order-button{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
     font-size: 16px;
@@ -159,17 +164,24 @@ nav a{
     background: #FFF
 }
 
-.features li{
-    list-style: none;
+.features-list{
+    display: flex;
+    gap: 24px;
 }
 
-.features h3{
+.features-list-paragraph{
+    list-style: none;
+    width: calc((100% - 72px) / 4);
+}
+
+.paragraph-title{
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.20; 
     letter-spacing: 0.02em; /* 0.4/20 */
+    margin-bottom: 8px;;
 }
 
 .features p{
@@ -192,27 +204,40 @@ nav a{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
+
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
 
 .team-list-paragraph{
     background-color: #FFFFFF;
+    list-style: none;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-member{
+    padding: 32px 0;
 }
 
 .paragraph-text{
     font-size: 16px;
+    text-align: center;
 }
 
-.team li{
-    list-style: none;
-}
-
-.team h3{
+.teamate{
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.20; 
     letter-spacing: 0.02em; /* 0.4/20 */
+    text-align: center; 
+    margin-bottom: 8px;
 }
 
 .team p{
@@ -228,26 +253,31 @@ nav a{
     background: #FFF;
 }
 
-.portfolio ul{
+.portfolio-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    column-gap: 24px; 
+    row-gap: 48px;
     align-items: center;
 }
 
 .portfolio-container{
     width: 360px;
     height: 420px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
-.portfolio li{
+.portfolio-list-paragraph{
     background: #FFF;
     list-style: none;
     padding: 0;
+    width: calc((100% - 48px) / 3);
 }
 
-.portfolio h2{
+.portfolio .title{
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 36px;
     font-style: normal;
@@ -256,6 +286,7 @@ nav a{
     letter-spacing: 0.02em; /* 0.72/36 */
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .portfolio h3{
@@ -269,6 +300,7 @@ nav a{
 
 .portfolio-list-title{
     color: #2e2f42;
+    margin-bottom: 8px
 }
 
 .portfolio p{
@@ -280,16 +312,12 @@ nav a{
     letter-spacing: 0.02em; /* 0.32/16 */
 }
 
-.portfolio-container-info{
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    border-left: 1px solid var(--CORNFLOWER, #E7E9FC);
-    border-right: 1px solid var(--CORNFLOWER, #E7E9FC);
 
-}
-
-footer{
+.basement{
     background: var(--NAVY-BLUE, #2E2F42);
+    padding: 100px 0;
 }
+
 
 .footer-logo{
     color: var(--CLOUD, #4d5ae5);
@@ -302,26 +330,33 @@ footer{
     text-transform: uppercase;
 }
 
+.basement .footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
 .footer-logo-span{
     color: #f4f4fd;
 }
 
-footer a{
-    text-decoration: none;
-}
-
-footer p{
+.footer-text{
     color: var(--CLOUD, #F4F4FD);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.50; 
     letter-spacing: 0.02em; /* 0.32/16 */
+    max-width: 264px;
 }
 
 .section{
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.visually-hidden{
+    display: none;
 }
 
 img{
