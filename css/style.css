@@ -62,12 +62,6 @@ nav a{
     gap: 40px;
 }
 
-.container{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .header-nav{
     display: flex;
     align-items: center;
@@ -122,7 +116,8 @@ nav a{
 
 .block-with-order-button{
     background: var(--NAVY-BLUE, #2E2F42);
-    padding: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .block-with-order-button h1{
@@ -171,7 +166,7 @@ nav a{
 
 .features-list-paragraph{
     list-style: none;
-    width: calc((100% - 72px) / 4);
+    width: calc( (100% - 3 * 24px) / 4)
 }
 
 .paragraph-title{
@@ -216,7 +211,7 @@ nav a{
 .team-list-paragraph{
     background-color: #FFFFFF;
     list-style: none;
-    width: calc((100% - 72px) / 4);
+    width: calc( (100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -224,7 +219,7 @@ nav a{
     padding: 32px 0;
 }
 
-.paragraph-text{
+.team-paragraph-text{
     font-size: 16px;
     text-align: center;
 }
@@ -265,16 +260,19 @@ nav a{
 .portfolio-container{
     width: 360px;
     height: 420px;
+}
+
+.portfolio-container-info{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
 
-.portfolio-list-paragraph{
+.portfolio-list-point{
     background: #FFF;
     list-style: none;
     padding: 0;
-    width: calc((100% - 48px) / 3);
+    width: calc( (100% - 48px) / 3);
 }
 
 .portfolio .title{
@@ -289,17 +287,13 @@ nav a{
     margin-bottom: 72px;
 }
 
-.portfolio h3{
+.portfolio-list-title{
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.20;
     letter-spacing: 0.02em; /* 0.4/20 */
-}
-
-.portfolio-list-title{
-    color: #2e2f42;
     margin-bottom: 8px
 }
 
@@ -355,11 +349,28 @@ nav a{
     padding-bottom: 120px;
 }
 
-.visually-hidden{
-    display: none;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+        
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
 
 img{
     display: block;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
