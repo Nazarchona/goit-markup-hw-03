@@ -245,12 +245,6 @@ nav a{
     height: 420px;
 }
 
-.portfolio-list-point{
-    background: #FFF;
-    list-style: none;
-    padding: 0;
-    width: calc((100% - 48px) / 3);
-}
 
 .portfolio-container-info{
     padding: 32px 16px;
@@ -361,12 +355,12 @@ img{
     padding: 188px 0;
 }   
 
-.features-list li{
+.features-list-paragraph{
     list-style: none;
     width: calc((100% - 72px) / 4);
 }
 
-.team-list li{
+.team-list-paragraph{
     background-color: #FFFFFF;
     list-style: none;
     width: calc((100% - 72px) / 4);
@@ -375,4 +369,11 @@ img{
 
 .portfolio-list-title{
     margin-bottom: 8px;
+}
+
+.portfolio-list-point{
+    background: #FFF;
+    list-style: none;
+    padding: 0;
+    width: calc((100% - 48px) / 3);
 }
