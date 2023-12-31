@@ -114,10 +114,6 @@ nav a{
     color: #404bbf;
 }
 
-.block-with-order-button{
-    background: var(--NAVY-BLUE, #2E2F42);
-    padding: 188px 0;
-}
 
 .block-with-order-button h1{
     color: var(--WHITE, #FFF);
@@ -163,10 +159,6 @@ nav a{
     gap: 24px;
 }
 
-.features-list-paragraph{
-    list-style: none;
-    width: calc((100% - 72px) / 4);
-}
 
 .paragraph-title{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -204,14 +196,6 @@ nav a{
 .team-list{
     display: flex;
     gap: 24px;
-}
-
-
-.team-list-paragraph{
-    background-color: #FFFFFF;
-    list-style: none;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-member{
@@ -293,7 +277,6 @@ nav a{
     font-weight: 500;
     line-height: 1.20;
     letter-spacing: 0.02em; /* 0.4/20 */
-    margin-bottom: 8px
 }
 
 .portfolio p{
@@ -373,3 +356,23 @@ img{
     padding: 0 15px;
 }
 
+.block-with-order-button{
+    background: var(--NAVY-BLUE, #2E2F42);
+    padding: 188px 0;
+}   
+
+.features-list li{
+    list-style: none;
+    width: calc((100% - 72px) / 4);
+}
+
+.team-list li{
+    background-color: #FFFFFF;
+    list-style: none;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.portfolio-list-title{
+    margin-bottom: 8px;
+}
