@@ -358,6 +358,8 @@ img{
 .features-list-paragraph{
     list-style: none;
     width: calc((100% - 72px) / 4);
+    padding: 0;
+    margin: 0;
 }
 
 .team-list-paragraph{
@@ -365,6 +367,8 @@ img{
     list-style: none;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    padding: 0;
+    margin: 0;
 }
 
 .portfolio-list-title{
@@ -376,4 +380,6 @@ img{
     list-style: none;
     padding: 0;
     width: calc((100% - 48px) / 3);
+    padding: 0;
+    margin: 0;
 }
