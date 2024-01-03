@@ -5,6 +5,11 @@ body{
     height: 3300px;
 }
 
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 header{
     background: var(--WHITE, #FFF);
 }
@@ -121,22 +126,24 @@ nav a{
 
 .section-with-order-button{
     background: var(--NAVY-BLUE, #2E2F42);
-    height: 600px;
-    display: block;
-    text-align: center;
 } 
 
 .first-section-title{
-    color: var(--WHITE, #FFF);
+    display: block;
     text-align: center;
+    color: var(--WHITE, #FFF);
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em; /* 1.12/56 */
+    max-width: 496px;
+    padding: 188px 0;
+    margin: 0 auto;
 }
 
-.block-with-order-button .order-button{
+.container .order-button{
+    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -149,13 +156,15 @@ nav a{
     line-height: 1.50;
     letter-spacing: 0.04em; /* 0.64/16 */
     cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.block-with-order-button button:hover{
+.container button:hover{
     background: var(--OCEAN, #404BBF);
 }
 
-.block-with-order-button button:focus{
+.container button:focus{
     background-color: #404BBF;
 }
 
@@ -337,10 +346,6 @@ nav a{
     max-width: 264px;
 }
 
-.section{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 .visually-hidden {
     position: absolute;
