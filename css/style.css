@@ -1,11 +1,16 @@
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF   ;
+    background-color: #FFFFFF;
+    height: 3300px;
 }
 
 header{
     background: var(--WHITE, #FFF);
+}
+
+.nav{
+    justify-content: space-between;
 }
 
 .top{
@@ -114,8 +119,14 @@ nav a{
     color: #404bbf;
 }
 
+.section-with-order-button{
+    background: var(--NAVY-BLUE, #2E2F42);
+    height: 600px;
+    display: block;
+    text-align: center;
+} 
 
-.block-with-order-button h1{
+.first-section-title{
     color: var(--WHITE, #FFF);
     text-align: center;
     font-size: 56px;
@@ -123,11 +134,9 @@ nav a{
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em; /* 1.12/56 */
-    max-width: 496px;
 }
 
 .block-with-order-button .order-button{
-    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -183,6 +192,7 @@ nav a{
 
 .team{
     background: var(--CLOUD, #F4F4FD);
+    height: 732px;
 }
 
 .team .title{
@@ -292,6 +302,7 @@ nav a{
 .basement{
     background: var(--NAVY-BLUE, #2E2F42);
     padding: 100px 0;
+    height: 312px;
 }
 
 
@@ -356,10 +367,7 @@ img{
     padding: 0 15px;
 }
 
-.block-with-order-button{
-    background: var(--NAVY-BLUE, #2E2F42);
-    padding: 188px 0;
-}   
+  
 
 .features-list-paragraph{
     list-style: none;
