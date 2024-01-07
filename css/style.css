@@ -2,7 +2,6 @@ body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    height: 3300px;
 }
 
 .section{
@@ -201,7 +200,6 @@ nav a{
 
 .team{
     background: var(--CLOUD, #F4F4FD);
-    height: 732px;
 }
 
 .team .title{
@@ -236,7 +234,7 @@ nav a{
     font-style: normal;
     font-weight: 500;
     line-height: 1.20; 
-    letter-spacing: 0.02em; /* 0.4/20 */
+    letter-spacing: 0.02em; 
     text-align: center; 
     margin-bottom: 8px;
 }
@@ -247,7 +245,7 @@ nav a{
     font-style: normal;
     font-weight: 400;
     line-height: 1.50; 
-    letter-spacing: 0.02em; /* 0.32/16 */
+    letter-spacing: 0.02em; 
 }
 
 .portfolio{
@@ -267,7 +265,6 @@ nav a{
 
 .portfolio-container{
     width: 360px;
-    height: 420px;
 }
 
 
@@ -311,7 +308,6 @@ nav a{
 .basement{
     background: var(--NAVY-BLUE, #2E2F42);
     padding: 100px 0;
-    height: 312px;
 }
 
 
