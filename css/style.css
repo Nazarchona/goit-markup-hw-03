@@ -28,7 +28,7 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: 1.17; 
-    letter-spacing: 0.03em; /* 0.54/18 */
+    letter-spacing: 0.03em; 
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 76px;
@@ -61,7 +61,7 @@ nav a{
     font-style: normal;
     font-weight: 500;
     line-height: 1.5; 
-    letter-spacing: 0.02em; /* 0.32/16 */
+    letter-spacing: 0.02em; 
     padding: 24px 0;
 }
 
