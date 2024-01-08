@@ -134,7 +134,7 @@ address{
     line-height: 1.07;
     letter-spacing: 0.02em; /* 1.12/56 */
     max-width: 496px;
-    margin: 48px auto;
+    margin: 48px auto 48px auto;
 }
 
 .container .order-button{
